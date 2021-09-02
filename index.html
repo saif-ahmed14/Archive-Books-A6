@@ -13,7 +13,7 @@
     <!-- Bootstrap cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Book archive custom styles link-->
+    <!-- Custom styles link-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -30,19 +30,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-dark" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Archive</a>
+                            <a class="nav-link text-dark" href="#">Archive</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
+                            <a class="nav-link text-dark" href="#">Blogs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link text-dark" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link text-dark" href="#">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -52,7 +52,7 @@
 
     <main>
         <section class="container my-4">
-            <!-- Input Box -->
+            <!-- Search box -->
             <h1 class="text-center fw-bold text-success">Search Your Book</h1>
             <div class="col-md-6 d-flex mx-auto">
                 <input type="text" class="form-control me-2" placeholder="Search by book name" id="searchInput" />
@@ -61,6 +61,7 @@
         </section>
         <hr class="container" />
 
+        <!-- Output section -->
         <section class="container mt-2">
             <h4 id="output-count" class="text-center rounded-2"></h4>
             <div id="error" class="mx-auto mt-5 col-md-8 bg-danger text-center text-light rounded-3 fs-3"></div>
@@ -71,7 +72,7 @@
                     <span class="visually-hidden">Loading...</span>
                 </div>
             </div>
-            
+
             <!-- Books -->
             <div id="book-container" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
 
@@ -84,7 +85,7 @@
                 href="https://www.facebook.com/profile.php?id=100007638965285" target="_blank"> Neon-10</a></p>
     </footer>
 
-    <!-- Book-archive own JavaScript link -->
+    <!-- JavaScript link -->
     <script src="javascript/book-archive.js"></script>
 </body>
 

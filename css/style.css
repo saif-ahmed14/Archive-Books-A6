@@ -8,7 +8,6 @@ main{
 
 .image-thumbnail img{
     height: 300px;
-    transition: all ease-in-out 2s;
 }
 
 footer a{

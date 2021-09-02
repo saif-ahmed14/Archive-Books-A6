@@ -1,5 +1,16 @@
-/* Book archive own styles */
-
 body{
-    font-family: Georgia !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ebebeb;
+}
+main{
+    min-height: 475px;
+}
+
+.image-thumbnail img{
+    height: 300px;
+    transition: all ease-in-out 2s;
+}
+
+footer a{
+    text-decoration: none;
 }
